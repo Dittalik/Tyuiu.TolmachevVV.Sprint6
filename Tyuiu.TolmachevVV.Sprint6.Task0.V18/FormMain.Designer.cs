@@ -32,13 +32,14 @@ namespace Tyuiu.TolmachevVV.Sprint6.Task0.V18
             this.groupBoxCondition = new System.Windows.Forms.GroupBox();
             this.pictureBoxCondition = new System.Windows.Forms.PictureBox();
             this.textBoxCondition = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBoxResult = new System.Windows.Forms.TextBox();
-            this.textBoxReusltName = new System.Windows.Forms.TextBox();
+            this.groupBoxOutputData = new System.Windows.Forms.GroupBox();
             this.buttonResultCaclulation = new System.Windows.Forms.Button();
+            this.textBoxResult = new System.Windows.Forms.TextBox();
+            this.buttonHelp = new System.Windows.Forms.Button();
+            this.labelResult = new System.Windows.Forms.Label();
             this.groupBoxCondition.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCondition)).BeginInit();
-            this.groupBox1.SuspendLayout();
+            this.groupBoxOutputData.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBoxCondition
@@ -72,37 +73,17 @@ namespace Tyuiu.TolmachevVV.Sprint6.Task0.V18
             this.textBoxCondition.TabIndex = 2;
             this.textBoxCondition.Text = "Посчитать значение выражения при x = 3";
             // 
-            // groupBox1
+            // groupBoxOutputData
             // 
-            this.groupBox1.Controls.Add(this.buttonResultCaclulation);
-            this.groupBox1.Controls.Add(this.textBoxReusltName);
-            this.groupBox1.Controls.Add(this.textBoxResult);
-            this.groupBox1.Location = new System.Drawing.Point(321, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(98, 91);
-            this.groupBox1.TabIndex = 2;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Вывод данных";
-            // 
-            // textBoxResult
-            // 
-            this.textBoxResult.AccessibleDescription = "";
-            this.textBoxResult.Location = new System.Drawing.Point(6, 39);
-            this.textBoxResult.Name = "textBoxResult";
-            this.textBoxResult.ReadOnly = true;
-            this.textBoxResult.Size = new System.Drawing.Size(85, 20);
-            this.textBoxResult.TabIndex = 0;
-            this.textBoxResult.Tag = "";
-            // 
-            // textBoxReusltName
-            // 
-            this.textBoxReusltName.BackColor = System.Drawing.SystemColors.Control;
-            this.textBoxReusltName.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxReusltName.Location = new System.Drawing.Point(6, 22);
-            this.textBoxReusltName.Name = "textBoxReusltName";
-            this.textBoxReusltName.Size = new System.Drawing.Size(56, 13);
-            this.textBoxReusltName.TabIndex = 1;
-            this.textBoxReusltName.Text = "Результат";
+            this.groupBoxOutputData.Controls.Add(this.labelResult);
+            this.groupBoxOutputData.Controls.Add(this.buttonResultCaclulation);
+            this.groupBoxOutputData.Controls.Add(this.textBoxResult);
+            this.groupBoxOutputData.Location = new System.Drawing.Point(321, 12);
+            this.groupBoxOutputData.Name = "groupBoxOutputData";
+            this.groupBoxOutputData.Size = new System.Drawing.Size(98, 91);
+            this.groupBoxOutputData.TabIndex = 2;
+            this.groupBoxOutputData.TabStop = false;
+            this.groupBoxOutputData.Text = "Вывод данных";
             // 
             // buttonResultCaclulation
             // 
@@ -114,12 +95,42 @@ namespace Tyuiu.TolmachevVV.Sprint6.Task0.V18
             this.buttonResultCaclulation.UseVisualStyleBackColor = true;
             this.buttonResultCaclulation.Click += new System.EventHandler(this.buttonResultCaclulation_Click);
             // 
+            // textBoxResult
+            // 
+            this.textBoxResult.AccessibleDescription = "";
+            this.textBoxResult.Location = new System.Drawing.Point(6, 39);
+            this.textBoxResult.Name = "textBoxResult";
+            this.textBoxResult.ReadOnly = true;
+            this.textBoxResult.Size = new System.Drawing.Size(85, 20);
+            this.textBoxResult.TabIndex = 0;
+            this.textBoxResult.Tag = "";
+            // 
+            // buttonHelp
+            // 
+            this.buttonHelp.Location = new System.Drawing.Point(350, 123);
+            this.buttonHelp.Name = "buttonHelp";
+            this.buttonHelp.Size = new System.Drawing.Size(42, 36);
+            this.buttonHelp.TabIndex = 3;
+            this.buttonHelp.Text = " ?";
+            this.buttonHelp.UseVisualStyleBackColor = true;
+            this.buttonHelp.Click += new System.EventHandler(this.buttonHelp_Click);
+            // 
+            // labelResult
+            // 
+            this.labelResult.AutoSize = true;
+            this.labelResult.Location = new System.Drawing.Point(9, 29);
+            this.labelResult.Name = "labelResult";
+            this.labelResult.Size = new System.Drawing.Size(59, 13);
+            this.labelResult.TabIndex = 3;
+            this.labelResult.Text = "Результат";
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(425, 190);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.buttonHelp);
+            this.Controls.Add(this.groupBoxOutputData);
             this.Controls.Add(this.groupBoxCondition);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -129,8 +140,8 @@ namespace Tyuiu.TolmachevVV.Sprint6.Task0.V18
             this.groupBoxCondition.ResumeLayout(false);
             this.groupBoxCondition.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCondition)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.groupBoxOutputData.ResumeLayout(false);
+            this.groupBoxOutputData.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -140,10 +151,11 @@ namespace Tyuiu.TolmachevVV.Sprint6.Task0.V18
         private System.Windows.Forms.GroupBox groupBoxCondition;
         private System.Windows.Forms.PictureBox pictureBoxCondition;
         private System.Windows.Forms.TextBox textBoxCondition;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBoxOutputData;
         private System.Windows.Forms.Button buttonResultCaclulation;
-        private System.Windows.Forms.TextBox textBoxReusltName;
         private System.Windows.Forms.TextBox textBoxResult;
+        private System.Windows.Forms.Button buttonHelp;
+        private System.Windows.Forms.Label labelResult;
     }
 }
 

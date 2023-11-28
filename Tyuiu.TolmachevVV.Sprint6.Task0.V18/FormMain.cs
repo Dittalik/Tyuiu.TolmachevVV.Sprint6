@@ -23,5 +23,10 @@ namespace Tyuiu.TolmachevVV.Sprint6.Task0.V18
         {
             textBoxResult.Text = service.Calculate(3).ToString();
         }
+
+        private void buttonHelp_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Задание выполнил студент группы ПКТб 23-1 Толмачев В. В.", "Сообщение");
+        }
     }
 }
