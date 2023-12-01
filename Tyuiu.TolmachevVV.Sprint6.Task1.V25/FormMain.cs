@@ -32,11 +32,11 @@ namespace Tyuiu.TolmachevVV.Sprint6.Task1.V25
 
             textBoxOutputData.Text = "";
             textBoxOutputData.AppendText("+----------+----------+" + Environment.NewLine);
-            textBoxOutputData.AppendText("|    X         |   f(x)      |" + Environment.NewLine);
+            textBoxOutputData.AppendText("|     X    |    f(x)  |" + Environment.NewLine);
             textBoxOutputData.AppendText("+----------+----------+" + Environment.NewLine);
             for (int i = 0, x = -5; i < values.Length; i++, x++)
             {
-                line = String.Format("|{0,5:d}        |   {1, 5:f2}    |", x, values[i]);
+                line = String.Format("|{0,5:d}     |   {1, 5:f2}  |", x, values[i]);
                 textBoxOutputData.AppendText(line + Environment.NewLine);
             }
             textBoxOutputData.AppendText("+----------+----------+" + Environment.NewLine);

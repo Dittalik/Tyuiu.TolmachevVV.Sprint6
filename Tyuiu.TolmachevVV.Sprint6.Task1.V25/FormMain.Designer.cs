@@ -101,7 +101,7 @@ namespace Tyuiu.TolmachevVV.Sprint6.Task1.V25
             // 
             this.textBoxOutputData.AcceptsTab = true;
             this.textBoxOutputData.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBoxOutputData.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxOutputData.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxOutputData.Location = new System.Drawing.Point(302, 21);
             this.textBoxOutputData.Multiline = true;
             this.textBoxOutputData.Name = "textBoxOutputData";
