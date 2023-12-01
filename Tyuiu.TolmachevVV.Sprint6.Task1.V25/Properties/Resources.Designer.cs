@@ -69,5 +69,15 @@ namespace Tyuiu.TolmachevVV.Sprint6.Task1.V25.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CalculationTask11 {
+            get {
+                object obj = ResourceManager.GetObject("CalculationTask11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

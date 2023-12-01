@@ -30,12 +30,12 @@ namespace Tyuiu.TolmachevVV.Sprint6.Task1.V25
         private void InitializeComponent()
         {
             this.groupBoxCondition = new System.Windows.Forms.GroupBox();
-            this.pictureBoxFunction = new System.Windows.Forms.PictureBox();
             this.textBoxCondition = new System.Windows.Forms.TextBox();
             this.buttonHelp = new System.Windows.Forms.Button();
             this.buttonResult = new System.Windows.Forms.Button();
             this.textBoxOutputData = new System.Windows.Forms.TextBox();
             this.labelResult = new System.Windows.Forms.Label();
+            this.pictureBoxFunction = new System.Windows.Forms.PictureBox();
             this.groupBoxCondition.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFunction)).BeginInit();
             this.SuspendLayout();
@@ -50,17 +50,6 @@ namespace Tyuiu.TolmachevVV.Sprint6.Task1.V25
             this.groupBoxCondition.TabIndex = 0;
             this.groupBoxCondition.TabStop = false;
             this.groupBoxCondition.Text = "Условие";
-            // 
-            // pictureBoxFunction
-            // 
-            this.pictureBoxFunction.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBoxFunction.Image = global::Tyuiu.TolmachevVV.Sprint6.Task1.V25.Properties.Resources.CalculationTask1;
-            this.pictureBoxFunction.InitialImage = null;
-            this.pictureBoxFunction.Location = new System.Drawing.Point(6, 77);
-            this.pictureBoxFunction.Name = "pictureBoxFunction";
-            this.pictureBoxFunction.Size = new System.Drawing.Size(201, 41);
-            this.pictureBoxFunction.TabIndex = 1;
-            this.pictureBoxFunction.TabStop = false;
             // 
             // textBoxCondition
             // 
@@ -118,6 +107,17 @@ namespace Tyuiu.TolmachevVV.Sprint6.Task1.V25
             this.labelResult.Size = new System.Drawing.Size(59, 13);
             this.labelResult.TabIndex = 4;
             this.labelResult.Text = "Результат";
+            // 
+            // pictureBoxFunction
+            // 
+            this.pictureBoxFunction.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBoxFunction.Image = global::Tyuiu.TolmachevVV.Sprint6.Task1.V25.Properties.Resources.CalculationTask11;
+            this.pictureBoxFunction.InitialImage = null;
+            this.pictureBoxFunction.Location = new System.Drawing.Point(6, 77);
+            this.pictureBoxFunction.Name = "pictureBoxFunction";
+            this.pictureBoxFunction.Size = new System.Drawing.Size(193, 41);
+            this.pictureBoxFunction.TabIndex = 1;
+            this.pictureBoxFunction.TabStop = false;
             // 
             // FormMain
             // 
