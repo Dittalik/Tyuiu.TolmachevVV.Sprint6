@@ -60,7 +60,7 @@ namespace Tyuiu.TolmachevVV.Sprint6.Task2.V25
 
         private void buttonResult_MouseDown(object sender, MouseEventArgs e)
         {
-            buttonResult.BackColor = SystemColors.GrayText;
+            buttonResult.FlatStyle = FlatStyle.Standard;
         }
     }
 }
