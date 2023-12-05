@@ -29,9 +29,9 @@ namespace Tyuiu.TolmachevVV.Sprint6.Task4.V6
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.groupBoxCondition = new System.Windows.Forms.GroupBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBoxCondition = new System.Windows.Forms.TextBox();
@@ -146,18 +146,18 @@ namespace Tyuiu.TolmachevVV.Sprint6.Task4.V6
             // 
             // chartFunction
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chartFunction.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chartFunction.Legends.Add(legend2);
+            chartArea3.Name = "ChartArea1";
+            this.chartFunction.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.chartFunction.Legends.Add(legend3);
             this.chartFunction.Location = new System.Drawing.Point(70, 20);
             this.chartFunction.Name = "chartFunction";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series2.IsVisibleInLegend = false;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chartFunction.Series.Add(series2);
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series3.IsVisibleInLegend = false;
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.chartFunction.Series.Add(series3);
             this.chartFunction.Size = new System.Drawing.Size(376, 250);
             this.chartFunction.TabIndex = 1;
             // 
@@ -205,6 +205,7 @@ namespace Tyuiu.TolmachevVV.Sprint6.Task4.V6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(488, 450);
             this.Controls.Add(this.buttonSave);
             this.Controls.Add(this.buttonExecute);
