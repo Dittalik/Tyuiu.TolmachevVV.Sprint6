@@ -53,7 +53,7 @@ namespace Tyuiu.TolmachevVV.Sprint6.Task6.V11
             this.textBoxAbout.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxAbout.CausesValidation = false;
             this.textBoxAbout.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBoxAbout.Location = new System.Drawing.Point(251, 76);
+            this.textBoxAbout.Location = new System.Drawing.Point(251, 75);
             this.textBoxAbout.Multiline = true;
             this.textBoxAbout.Name = "textBoxAbout";
             this.textBoxAbout.ReadOnly = true;
@@ -78,12 +78,14 @@ namespace Tyuiu.TolmachevVV.Sprint6.Task6.V11
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(498, 263);
+            this.ClientSize = new System.Drawing.Size(499, 261);
             this.Controls.Add(this.buttonOK);
             this.Controls.Add(this.textBoxAbout);
             this.Controls.Add(this.pictureBoxKassadin);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(515, 300);
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(515, 300);
             this.Name = "FormAbout";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "О программе";

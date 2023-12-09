@@ -113,9 +113,29 @@ namespace Tyuiu.TolmachevVV.Sprint6.Task6.V11.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap folder_go {
+            get {
+                object obj = ResourceManager.GetObject("folder_go", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap photo_2023_04_06_00_22_26 {
             get {
                 object obj = ResourceManager.GetObject("photo_2023-04-06_00-22-26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap script_go {
+            get {
+                object obj = ResourceManager.GetObject("script_go", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

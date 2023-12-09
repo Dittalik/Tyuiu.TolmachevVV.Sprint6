@@ -49,22 +49,22 @@ namespace Tyuiu.TolmachevVV.Sprint6.Task6.V11
             // 
             // buttonExecute
             // 
-            this.buttonExecute.Location = new System.Drawing.Point(128, 12);
+            this.buttonExecute.Image = global::Tyuiu.TolmachevVV.Sprint6.Task6.V11.Properties.Resources.script_go;
+            this.buttonExecute.Location = new System.Drawing.Point(88, 12);
             this.buttonExecute.Name = "buttonExecute";
-            this.buttonExecute.Size = new System.Drawing.Size(109, 48);
+            this.buttonExecute.Size = new System.Drawing.Size(69, 69);
             this.buttonExecute.TabIndex = 0;
-            this.buttonExecute.Text = "Выполнить";
             this.toolTipFileInpButton.SetToolTip(this.buttonExecute, "Сделать");
             this.buttonExecute.UseVisualStyleBackColor = true;
             this.buttonExecute.Click += new System.EventHandler(this.buttonExecute_Click);
             // 
             // buttonFileInput
             // 
-            this.buttonFileInput.Location = new System.Drawing.Point(13, 13);
+            this.buttonFileInput.Image = global::Tyuiu.TolmachevVV.Sprint6.Task6.V11.Properties.Resources.folder_go;
+            this.buttonFileInput.Location = new System.Drawing.Point(12, 12);
             this.buttonFileInput.Name = "buttonFileInput";
-            this.buttonFileInput.Size = new System.Drawing.Size(109, 47);
+            this.buttonFileInput.Size = new System.Drawing.Size(70, 70);
             this.buttonFileInput.TabIndex = 0;
-            this.buttonFileInput.Text = "Выбрать файл";
             this.toolTipFileInpButton.SetToolTip(this.buttonFileInput, "Выберите файл для обработки");
             this.buttonFileInput.UseVisualStyleBackColor = true;
             this.buttonFileInput.Click += new System.EventHandler(this.buttonFileInput_Click);
@@ -173,10 +173,10 @@ namespace Tyuiu.TolmachevVV.Sprint6.Task6.V11
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(599, 371);
             this.Controls.Add(this.groupBoxOutput);
+            this.Controls.Add(this.buttonExecute);
             this.Controls.Add(this.groupBoxInput);
             this.Controls.Add(this.groupBoxCondition);
             this.Controls.Add(this.buttonHelp);
-            this.Controls.Add(this.buttonExecute);
             this.Controls.Add(this.buttonFileInput);
             this.MinimumSize = new System.Drawing.Size(615, 410);
             this.Name = "FormMain";
