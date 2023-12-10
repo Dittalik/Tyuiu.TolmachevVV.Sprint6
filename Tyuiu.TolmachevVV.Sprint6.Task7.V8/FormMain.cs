@@ -40,7 +40,7 @@ namespace Tyuiu.TolmachevVV.Sprint6.Task7.V8
 
 
             string content = File.ReadAllText(path);
-            int[,] matrix = new int[content.Split('\n')[0].Split(';').Length, content.Count(x => x == '\n')];
+            int[,] matrix = new int[content.Count(x => x == '\n'), content.Split('\n')[0].Split(';').Length];
             for (int i = 0; i < matrix.GetLength(0); i++)
             {
                 string[] str = content.Split('\n');
